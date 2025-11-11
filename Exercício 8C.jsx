@@ -43,3 +43,4 @@ function PlacarDeJogos() {
     </div>
   );
 }
+export default PlacarDeJogos
