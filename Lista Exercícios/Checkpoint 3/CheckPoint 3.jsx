@@ -11,7 +11,7 @@ function SpotifyClone() {
       nome: "Pure",
       artista: "The Last 100",
       imagem: "https://i.imgur.com/TxpQqA3.jpg",
-      duracao: 200 // segundos
+      duracao: 200
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ function SpotifyClone() {
   const [busca, setBusca] = useState("");
   const [musicaAtual, setMusicaAtual] = useState(null);
   const [tocando, setTocando] = useState(false);
-  const [progresso, setProgresso] = useState(0); // segundos
+  const [progresso, setProgresso] = useState(0);
   const [volume, setVolume] = useState(0.5);
 
   const intervalRef = useRef();
