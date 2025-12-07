@@ -1,0 +1,69 @@
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid #dee2e6;
+}
+
+.saudacao h1 {
+  color: #2c5530;
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.data-hora, .info-planeta, .previsao-tempo, .relatorio-bordo {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #4a7c59;
+  margin: 20px 0;
+}
+
+.data-hora h3, .info-planeta h2, .previsao-tempo h3, .relatorio-bordo h2 {
+  color: #4a7c59;
+  margin: 0 0 15px 0;
+}
+
+.data-hora p, .info-planeta p, .previsao-tempo p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.previsao-tempo div {
+  font-size: 3rem;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.progresso {
+  width: 100%;
+  height: 35px;
+  background: #e9ecef;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.barra-progresso {
+  height: 100%;
+  color: #000000;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relatorio-bordo ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.relatorio-bordo li {
+  margin-bottom: 12px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+}
